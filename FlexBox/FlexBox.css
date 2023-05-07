@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: auto;
+  font-weight: bold;
+  background-color: aquamarine;
+}
+
+.title {
+  text-align: center;
+  font-size: 25pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+} */
