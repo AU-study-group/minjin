@@ -1,0 +1,47 @@
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: auto;
+  font-weight: bold;
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 25pt;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.ham {
+  position: absolute;
+  right: 20px;
+  transform:translateY(-77%);
+  display:  
+  
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 780px) {
+  .ham{
+  display: block;
+  right: 50px;
+  transform:translateY(-373%);
+
+  }
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
