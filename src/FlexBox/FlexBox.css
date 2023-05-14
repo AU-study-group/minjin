@@ -7,8 +7,9 @@
   margin-top: 5px;
   padding: auto;
   font-weight: bold;
-  background-color: aquamarine;
+  background-color: antiquewhite;
   width: 100%;
+  color: black;
 }
 
 .title {
@@ -25,13 +26,25 @@ a {
   position: absolute;
   right: 20px;
   transform:translateY(-77%);
-  display:  
-  
+  display: none;
 }
 
 li {
   list-style: none;
 }
+
+.footer {
+  background-color: antiquewhite;
+  font-size: 15pt;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding:1px;
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 780px) {
   .ham{
